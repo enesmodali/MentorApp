@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using MentorApp.Graph
+
+<div class="jumbotron">
+    <h1>Mentör APP</h1>
+    
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h4>Welcome @User.GetUserGraphDisplayName()!</h4>
+        <p>Use the navigation bar at the top of the page to get started.</p>
+    }
+    else
+    {
+        <h1>Mentör APP Uygulamasına Hoşgeldiniz!!</h1>
+        <p class="lead">Lütfen giriş yapın!</p>
+        <div class="nav-item">
+
+            <a class="btn btn-primary btn-large" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Click here to sign in</a>
+
+        </div>
+        @*<a class="btn btn-primary btn-large" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Click here to sign in</a>*@
+    }
+</div>

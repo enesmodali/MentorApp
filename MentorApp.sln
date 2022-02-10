@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorAppDemo", "MentorApp\MentorAppDemo.csproj", "{13243C52-FDFC-4346-BC9E-C26DA630B0F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B789E08-31B5-4715-9410-62F792FA5712}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorAppAPI", "MentorAppAPI\MentorAppAPI.csproj", "{FBE2CE21-68BA-4256-A32B-E569D91867B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13243C52-FDFC-4346-BC9E-C26DA630B0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13243C52-FDFC-4346-BC9E-C26DA630B0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13243C52-FDFC-4346-BC9E-C26DA630B0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13243C52-FDFC-4346-BC9E-C26DA630B0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE2CE21-68BA-4256-A32B-E569D91867B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE2CE21-68BA-4256-A32B-E569D91867B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE2CE21-68BA-4256-A32B-E569D91867B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE2CE21-68BA-4256-A32B-E569D91867B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72AF2A58-AA19-4F17-A40B-69F1693C3F3F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/bamentorapi
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MentorAppAPI\\MentorAppAPI.csproj
+		SccProjectName1 = MentorAppAPI
+		SccLocalPath1 = MentorAppAPI
+		SccProjectUniqueName2 = MentorApp\\MentorAppDemo.csproj
+		SccProjectName2 = MentorApp
+		SccLocalPath2 = MentorApp
+	EndGlobalSection
+EndGlobal
